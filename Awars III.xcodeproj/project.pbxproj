@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60E059A166B143C003D5239 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60E0599166B143C003D5239 /* Cocoa.framework */; };
+		C60E05A4166B143C003D5239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60E05A2166B143C003D5239 /* InfoPlist.strings */; };
+		C60E05A6166B143C003D5239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C60E05A5166B143C003D5239 /* main.m */; };
+		C60E05AA166B143C003D5239 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C60E05A8166B143C003D5239 /* Credits.rtf */; };
+		C60E05AD166B143C003D5239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C60E05AC166B143C003D5239 /* AppDelegate.m */; };
+		C60E05B0166B143C003D5239 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60E05AE166B143C003D5239 /* MainMenu.xib */; };
+		C60E05B8166B143D003D5239 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60E05B7166B143D003D5239 /* SenTestingKit.framework */; };
+		C60E05B9166B143D003D5239 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60E0599166B143C003D5239 /* Cocoa.framework */; };
+		C60E05C1166B143D003D5239 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60E05BF166B143D003D5239 /* InfoPlist.strings */; };
+		C60E05C4166B143D003D5239 /* Awars_IIITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60E05C3166B143D003D5239 /* Awars_IIITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60E05BA166B143D003D5239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60E058C166B143C003D5239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60E0594166B143C003D5239;
+			remoteInfo = "Awars III";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60E0595166B143C003D5239 /* Awars III.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awars III.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60E0599166B143C003D5239 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C60E059C166B143C003D5239 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C60E059D166B143C003D5239 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C60E059E166B143C003D5239 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C60E05A1166B143C003D5239 /* Awars III-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Awars III-Info.plist"; sourceTree = "<group>"; };
+		C60E05A3166B143C003D5239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C60E05A5166B143C003D5239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C60E05A7166B143C003D5239 /* Awars III-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Awars III-Prefix.pch"; sourceTree = "<group>"; };
+		C60E05A9166B143C003D5239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C60E05AB166B143C003D5239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C60E05AC166B143C003D5239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C60E05AF166B143C003D5239 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C60E05B6166B143D003D5239 /* Awars IIITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awars IIITests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60E05B7166B143D003D5239 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C60E05BE166B143D003D5239 /* Awars IIITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Awars IIITests-Info.plist"; sourceTree = "<group>"; };
+		C60E05C0166B143D003D5239 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C60E05C2166B143D003D5239 /* Awars_IIITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Awars_IIITests.h; sourceTree = "<group>"; };
+		C60E05C3166B143D003D5239 /* Awars_IIITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Awars_IIITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60E0592166B143C003D5239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E059A166B143C003D5239 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60E05B2166B143D003D5239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E05B8166B143D003D5239 /* SenTestingKit.framework in Frameworks */,
+				C60E05B9166B143D003D5239 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60E058A166B143C003D5239 = {
+			isa = PBXGroup;
+			children = (
+				C60E059F166B143C003D5239 /* Awars III */,
+				C60E05BC166B143D003D5239 /* Awars IIITests */,
+				C60E0598166B143C003D5239 /* Frameworks */,
+				C60E0596166B143C003D5239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60E0596166B143C003D5239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60E0595166B143C003D5239 /* Awars III.app */,
+				C60E05B6166B143D003D5239 /* Awars IIITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60E0598166B143C003D5239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60E0599166B143C003D5239 /* Cocoa.framework */,
+				C60E05B7166B143D003D5239 /* SenTestingKit.framework */,
+				C60E059B166B143C003D5239 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60E059B166B143C003D5239 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60E059C166B143C003D5239 /* AppKit.framework */,
+				C60E059D166B143C003D5239 /* CoreData.framework */,
+				C60E059E166B143C003D5239 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C60E059F166B143C003D5239 /* Awars III */ = {
+			isa = PBXGroup;
+			children = (
+				C60E05AB166B143C003D5239 /* AppDelegate.h */,
+				C60E05AC166B143C003D5239 /* AppDelegate.m */,
+				C60E05AE166B143C003D5239 /* MainMenu.xib */,
+				C60E05A0166B143C003D5239 /* Supporting Files */,
+			);
+			path = "Awars III";
+			sourceTree = "<group>";
+		};
+		C60E05A0166B143C003D5239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60E05A1166B143C003D5239 /* Awars III-Info.plist */,
+				C60E05A2166B143C003D5239 /* InfoPlist.strings */,
+				C60E05A5166B143C003D5239 /* main.m */,
+				C60E05A7166B143C003D5239 /* Awars III-Prefix.pch */,
+				C60E05A8166B143C003D5239 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C60E05BC166B143D003D5239 /* Awars IIITests */ = {
+			isa = PBXGroup;
+			children = (
+				C60E05C2166B143D003D5239 /* Awars_IIITests.h */,
+				C60E05C3166B143D003D5239 /* Awars_IIITests.m */,
+				C60E05BD166B143D003D5239 /* Supporting Files */,
+			);
+			path = "Awars IIITests";
+			sourceTree = "<group>";
+		};
+		C60E05BD166B143D003D5239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60E05BE166B143D003D5239 /* Awars IIITests-Info.plist */,
+				C60E05BF166B143D003D5239 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60E0594166B143C003D5239 /* Awars III */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60E05C7166B143D003D5239 /* Build configuration list for PBXNativeTarget "Awars III" */;
+			buildPhases = (
+				C60E0591166B143C003D5239 /* Sources */,
+				C60E0592166B143C003D5239 /* Frameworks */,
+				C60E0593166B143C003D5239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awars III";
+			productName = "Awars III";
+			productReference = C60E0595166B143C003D5239 /* Awars III.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60E05B5166B143D003D5239 /* Awars IIITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60E05CA166B143D003D5239 /* Build configuration list for PBXNativeTarget "Awars IIITests" */;
+			buildPhases = (
+				C60E05B1166B143D003D5239 /* Sources */,
+				C60E05B2166B143D003D5239 /* Frameworks */,
+				C60E05B3166B143D003D5239 /* Resources */,
+				C60E05B4166B143D003D5239 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60E05BB166B143D003D5239 /* PBXTargetDependency */,
+			);
+			name = "Awars IIITests";
+			productName = "Awars IIITests";
+			productReference = C60E05B6166B143D003D5239 /* Awars IIITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60E058C166B143C003D5239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Killery;
+			};
+			buildConfigurationList = C60E058F166B143C003D5239 /* Build configuration list for PBXProject "Awars III" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C60E058A166B143C003D5239;
+			productRefGroup = C60E0596166B143C003D5239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60E0594166B143C003D5239 /* Awars III */,
+				C60E05B5166B143D003D5239 /* Awars IIITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60E0593166B143C003D5239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E05A4166B143C003D5239 /* InfoPlist.strings in Resources */,
+				C60E05AA166B143C003D5239 /* Credits.rtf in Resources */,
+				C60E05B0166B143C003D5239 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60E05B3166B143D003D5239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E05C1166B143D003D5239 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C60E05B4166B143D003D5239 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60E0591166B143C003D5239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E05A6166B143C003D5239 /* main.m in Sources */,
+				C60E05AD166B143C003D5239 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60E05B1166B143D003D5239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60E05C4166B143D003D5239 /* Awars_IIITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C60E05BB166B143D003D5239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60E0594166B143C003D5239 /* Awars III */;
+			targetProxy = C60E05BA166B143D003D5239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C60E05A2166B143C003D5239 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60E05A3166B143C003D5239 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C60E05A8166B143C003D5239 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60E05A9166B143C003D5239 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C60E05AE166B143C003D5239 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60E05AF166B143C003D5239 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C60E05BF166B143D003D5239 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60E05C0166B143D003D5239 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60E05C5166B143D003D5239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C60E05C6166B143D003D5239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C60E05C8166B143D003D5239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awars III/Awars III-Prefix.pch";
+				INFOPLIST_FILE = "Awars III/Awars III-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C60E05C9166B143D003D5239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awars III/Awars III-Prefix.pch";
+				INFOPLIST_FILE = "Awars III/Awars III-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C60E05CB166B143D003D5239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Awars III.app/Contents/MacOS/Awars III";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awars III/Awars III-Prefix.pch";
+				INFOPLIST_FILE = "Awars IIITests/Awars IIITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C60E05CC166B143D003D5239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Awars III.app/Contents/MacOS/Awars III";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awars III/Awars III-Prefix.pch";
+				INFOPLIST_FILE = "Awars IIITests/Awars IIITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60E058F166B143C003D5239 /* Build configuration list for PBXProject "Awars III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60E05C5166B143D003D5239 /* Debug */,
+				C60E05C6166B143D003D5239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60E05C7166B143D003D5239 /* Build configuration list for PBXNativeTarget "Awars III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60E05C8166B143D003D5239 /* Debug */,
+				C60E05C9166B143D003D5239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C60E05CA166B143D003D5239 /* Build configuration list for PBXNativeTarget "Awars IIITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60E05CB166B143D003D5239 /* Debug */,
+				C60E05CC166B143D003D5239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60E058C166B143C003D5239 /* Project object */;
+}
